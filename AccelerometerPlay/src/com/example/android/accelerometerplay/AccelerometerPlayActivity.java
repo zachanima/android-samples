@@ -111,7 +111,7 @@ public class AccelerometerPlayActivity extends Activity {
 
     class SimulationView extends View implements SensorEventListener {
         // diameter of the balls in meters
-        private static final float sBallDiameter = 0.004f;
+        private static final float sBallDiameter = 0.008f;
         private static final float sBallDiameter2 = sBallDiameter * sBallDiameter;
 
         // friction of the virtual table and air
